@@ -1,0 +1,70 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("./pexels-pixabay-35857.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.somediv {
+    width: 400px;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.insidedivs {
+    width: 100px;
+    height: 150px;
+
+}
+
+.ampmdiv {
+    width: 60px;
+    height: 50px;
+    background-color: rgb(255,69,0,0.7);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.timeDivUp {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: 	rgb(255,127,80,0.5);
+    color: white;
+}
+
+.timeDivdown {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(255,69,0,0.7);
+
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+h1{
+    color: white;
+    font-size: 24px;
+
+}
+.myclass{
+    font-size: 40px;
+    font-weight: 900;
+}
